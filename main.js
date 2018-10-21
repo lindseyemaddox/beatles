@@ -37,6 +37,8 @@ const beatles = {
 
 
 for (var propertyKey in beatles) {
-  console.log(beatles.members[1].name + " poop")
+  console.log(beatles.members[1].name + " was in the Beatles from " + beatles.history.formed + " to " + beatles.history.disbanded + ". He was born in " + beatles.members[0].birth + ". He contributed heavily to the " + beatles.albums[3] + " album.");
+}
 
-};
+
+// Wonder how to log "Beatles"?
